@@ -1,0 +1,141 @@
+/* project setup */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container{
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* navbar style starts here */
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: inherit;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 62px;
+    height: 62px;
+    flex-shrink: 0;
+}
+
+.logo h1{
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-links{
+    width: 387px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.home{
+    color: #FEA301;
+    font-weight: 700;
+}
+
+.about{
+    color: #01ACFD;
+}
+
+.facilities{
+    color: #05D4DF;
+}
+
+.admission{
+    color: #5D58EF;
+}
+
+.contact-button button{
+    border: none;
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FEA301;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.menu-hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        padding: 0 16px;
+    }
+
+    .logo h1{
+        display: none;
+    }
+    
+    .nav-links{
+        display: none;
+    }
+
+    .contact-button{
+        display: none;
+    }
+
+    .menu-hamburger{
+        display: block;
+        display: flex;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+}
+
+/* navbar style ends here */
