@@ -99,7 +99,6 @@
     border-radius: 12px;
     background: #FEA301;
     color: #FFF;
-    font-family: Quicksand;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -113,6 +112,7 @@
 @media screen and (max-width: 576px) {
     .navbar{
         padding: 0 16px;
+        border-bottom: 0.5px solid #FEA301;
     }
 
     .logo h1{
@@ -139,3 +139,104 @@
 }
 
 /* navbar style ends here */
+
+
+/* hero section starts here */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px
+}
+
+.hero-left h1 {
+    width: 640px;
+    color: #000;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 61px;
+}
+
+.empowering{
+    color: #FEA301;
+}
+
+.vision{
+    color: #01ACFD;
+}
+
+.hero-left p {
+    color: #111;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.hero-left button {
+    border: none;
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #111;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.hero-right img{
+    width: 468.607px;
+    height: 575px;
+}
+
+@media screen and (max-width: 576px) {
+    .hero {
+        display: flex;
+        width: 357px;
+        padding: 20px 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .hero-left h1{
+    font-size: 32px;
+    text-align: center;
+    width: 357px;
+    line-height: normal;
+    }
+
+
+    .hero-left p{
+        color: #111;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .hero-left button{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 6px 24px;
+        width: auto;
+        margin: 0 auto;
+    }
+
+
+    .hero-right img{
+        width: 336.582px;
+        height: 413px;
+    }
+}
