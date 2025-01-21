@@ -421,6 +421,13 @@
 /* our story section starts here */
 
 
+.our-story {
+    background: url(/assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.30) 0%, rgba(255, 255, 255, 0.30) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .our-story-wrapper {
     margin-bottom: 80px;
 }
@@ -559,7 +566,7 @@
 
 .our-story-btn button {
     border-radius: 12px;
-    background: var(--Black, #111);
+    background: #111;
     display: flex;
     width: 197px;
     padding: 10px;
