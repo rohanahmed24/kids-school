@@ -359,7 +359,7 @@
         gap: 20px;
     }
 
-    .curriculum-cards-wrapper{
+    .curriculum-cards-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -417,3 +417,158 @@
 }
 
 /* curriculum section ends here */
+
+/* our story section starts here */
+
+
+.our-story-wrapper {
+    margin-bottom: 80px;
+}
+
+.our-story h2 {
+    color: #000;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.5px;
+}
+
+.our-story-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.our-story-card-big {
+    grid-row: span 2;
+    width: 540.267px;
+    height: 630.518px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.our-story-card-big-content {
+    position: relative;
+    padding: 35px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.our-story-card-big img {
+    width: 540px;
+    height: 337px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.our-story-card-big-overlay {
+    display: flex;
+    width: 174.51px;
+    height: 47.934px;
+    padding: 14.38px 18.876px 15.339px 19.174px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 47.934px;
+    background: #3CD8E8;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.761px;
+    text-transform: capitalize;
+    position: absolute;
+    top: -30px;
+}
+
+.our-story-card-big-text h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.347px;
+    display: flex;
+    width: 402.495px;
+    height: 69.984px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-story-card-big-text p {
+    color: #666;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-weight: 500;
+    line-height: 28.761px;
+    margin-top: 50px;
+}
+
+.our-story-card-small {
+    width: 290.693px;
+    height: 301px;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.our-story-card-small-content {
+    position: relative;
+    padding: 19px 55px 33px 38px;
+}
+
+.our-story-card-small img {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.our-story-card-small-overlay {
+    display: flex;
+    width: 174.51px;
+    height: 38.347px;
+    padding: 9.587px 18.876px 10.545px 19.174px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 47.934px;
+    background: #95B226;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15.339px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28.761px;
+    text-transform: capitalize;
+    position: absolute;
+    top: -25px;
+}
+
+.our-story-card-small-text h3 {
+    color: #000;
+    font-size: 15.339px;
+    font-weight: 700;
+    line-height: 28.761px;
+    margin-top: 20px;
+}
+
+.our-story-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.our-story-btn button {
+    border-radius: 12px;
+    background: var(--Black, #111);
+    display: flex;
+    width: 197px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
